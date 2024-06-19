@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2572428184697247199
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_MovingTexture
+  m_Shader: {fileID: -6465566751694194690, guid: f2079b83a6061194e93ee9f9006abe44, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_04a3ac235e1f495998b2b36ac54182ca:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8341647adaad4d4eb1ce1603df1c46aa:
+        m_Texture: {fileID: 2800000, guid: 027164f91e3ac9b4eb14ad9022408842, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_58cf49c041df404aad4399e019c2558f: 4.5
+    - Vector1_793abee2355d4ad3b558b32773713061: 0
+    - Vector1_832969983f464a58ae966a797f3d40d1: 3
+    - Vector1_96c0ea30d1574784acb4286d96124245: 0.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_0429202b3dc74fce9043590b5a0d28b3: {r: 0.514151, g: 0.9523678, b: 1, a: 1}
+    - Color_67401297ff8140818866331797ec23d1: {r: 0, g: 0.50265884, b: 1, a: 0}
+    - Color_71f0722f23224248bca8965172371b31: {r: 0.759434, g: 0.8675274, b: 1, a: 0}
+    - Vector2_703f8a22eea84b17b11ab6c6428afdd4: {r: 1, g: -1, b: 0, a: 0}
+    - Vector2_e56c4e94c9874798bd08e9ab7cd6b6a8: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
